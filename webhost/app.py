@@ -14,8 +14,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as socket_stream:
 
     print(f"Listening on port {PORT}")
 
-    # conn, addr = socket_stream.accept()
-
     while True:
         conn, addr = socket_stream.accept()
 
