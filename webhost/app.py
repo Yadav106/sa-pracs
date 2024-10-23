@@ -35,11 +35,5 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as socket_stream:
                 html_code
             )
 
-            # response = (
-            #     "HTTP/1.1 200 OK\r\n"
-            # )
-
-
-
             conn.sendall(response.encode())
     
