@@ -1,17 +1,17 @@
 run
 
-```java
+```zsh
 javac *.java
 ```
 This will compile all java codes
 
 
 then run the RMIServer using
-```java
+```zsh
 java RMIServer
 ```
 
 and then finally run RMIClient
-```java
+```zsh
 java RMIClient
 ```
