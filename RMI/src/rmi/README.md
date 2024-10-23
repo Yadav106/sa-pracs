@@ -11,7 +11,7 @@ then run the RMIServer using
 java RMIServer
 ```
 
-and then finally run RMIClient
+and then finally(on another terminal, while the server is running) run RMIClient
 ```zsh
 java RMIClient
 ```
